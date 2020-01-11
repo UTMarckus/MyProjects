@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.concurrent.ArrayBlockingQueue;
 
 public class Main {
 
-	private static ArrayList<Object> list = new ArrayList<Object>();
+	private static ArrayBlockingQueue<Object> list = new ArrayBlockingQueue<Object>(1000);
 
 	public static void main(String[] args) {
 
